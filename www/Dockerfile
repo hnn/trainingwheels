@@ -1,4 +1,4 @@
-FROM python
+FROM resin/raspberry-pi-python
 RUN pip install flask
 RUN pip install gunicorn
 RUN pip install redis
